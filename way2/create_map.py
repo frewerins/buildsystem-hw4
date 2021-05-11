@@ -1,15 +1,15 @@
 import cv2
 
 if __name__ == "__main__":
-    with open("map.h", "w+") as f:
+    with open("../../way2/map.h", "w+") as f:
         f.write(
             "#pragma once\n"
             "#include <string>\n"
             "#include <vector>\n"
             "#include <ccomplex>\n"
-            "std::vector<std::vector<std::vector<char>>> map = {\n"
+            "std::vector<std::vector<std::vector<u_char>>> map = {\n"
         )
-        map = cv2.imread("data/map.png")
+        map = cv2.imread("../../data/map.png")
         for i in range(map.shape[0]):
             f.write("\t{\n")
             for j in range(map.shape[1]):

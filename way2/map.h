@@ -2,7 +2,6 @@
 #include <string>
 #include <vector>
 #include <ccomplex>
-
 std::vector<std::vector<std::vector<u_char>>> map = {
 	{
 		{ 0, 0, 0 },
@@ -776,6 +775,6 @@ std::vector<std::vector<std::vector<u_char>>> map = {
 		{ 254, 0, 0 },
 		{ 254, 0, 0 },
 		{ 255, 0, 0 },
-		{ 255, 0, 0 },
-	},
+		{ 255, 0, 0 }
+	}
 };
